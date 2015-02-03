@@ -1,0 +1,7 @@
+<h1>URL LIST</h1>
+<ul>
+<% @pages.each do |page| %>
+	<li><a href ="<%= page.url %>"><%= page.url %></a> / created on <%= page.created_at.strftime("%B %d, %Y") %> / visited <%=page.visits %> times</li>
+	<% end %>
+</ul>
+

@@ -1,0 +1,6 @@
+<h1>Most Visited Pages Ranking</h1>
+<ol>
+	<% @pages.each do |page| %>
+	<li><a href ="<%= page.url %>"><%= page.url %></a> / <%= page.visits %> visits</li>
+	<% end %>
+</ol>
