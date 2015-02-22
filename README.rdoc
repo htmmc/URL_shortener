@@ -1,28 +1,22 @@
-== README
+This is an exercise provied by Ironhack outside the class. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Assignment: 
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Let's build a URL Shortener. We will make a web application where we can add new urls and we will be assigned a shortened version. Then if we visit that shortened version we will be redirected to the url provided.
+
+For example, if the appropriate data is in place if you type in your browser:
+
+http://localhost:3000/345
+your should be redirected to
+
+http://ohmyweekpage.com/something
+Also we want to create a page with the 10 most recent URLs visited at /most_visited_pages URI
+
+We should also have another page with a list of all url in the system and we should show when it was created and the number of times it was visited.
+
+http://ohmyweekpage.com/something / created on 25-12-2015 / visited 24 times
+http://www.google.com / created on 26-12-2015 / visited 4 times
+
+Note: 
+In stead of using Faker, I manually entered the website information in seeds. 
